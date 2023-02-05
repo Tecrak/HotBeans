@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script type="module" src="../script/map.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/style_courses.css">
+    <link rel="stylesheet" href="../style/style_adaptation.css">
+    <link rel="stylesheet" href="../style/player.css">
+    <script src="libs/wow.min.js"></script>
+    <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="../fav/fav.ico">
+    <link href="https://unpkg.com/@videojs/themes@1/dist/city/index.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/ab3a47a664.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+    <title>Full course for JavaScript</title>
+</head>
+<body>
+    <header id="section_home">
+        <!-- <style style="display:block; border:1px red solid; color:red;font-size:30px; position: absolute; width: 300px; z-index: 4; right:0px; left: 0px;" contenteditable="">
+        </style> -->
+        <div class="navigation">
+            <a href="../index.html" class="logo"></a>
+            <ul class="navigation-content">
+                <li class="navigate home">
+                    <a href="../index.html">Home</a>
+                </li>
+                <li class="navigate courses"><a href="../index.html#section_courses">Courses</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <div class="video-container show-controls">
+            <div class="wrapper">
+                <div class="video-timeline">
+                    <div class="progress-area">
+                        <span>00:00</span>
+                        <div class="progress-bar"></div>
+                    </div>
+                </div>
+                <ul class="video-controls">
+                    <li class="options left">
+                        <button class="volume">
+                            <i class="fa-solid fa-volume-high"></i>
+                        </button>
+                        <input class="video-volume" type="range" min="0" max="1" step="any">
+                        <div class="video-timer">
+                            <p class="current-time">00:00</p>
+                            <p class="separator">/</p>
+                            <p class="video-duration">00:00</p>
+                        </div>
+                    </li>
+                    <li class="options center">
+                        <button class="skip-backward"><i class="fas fa-backward"></i></button>
+                        <button class="play-pause huj"><i class="fas fa-play"></i></button>
+                        <button class="skip-forward"><i class="fas fa-forward"></i></button>
+                    </li>
+                    <li class="options right">
+                        <div class="playback-content">
+                            <button class="playback-speed">
+                                <span class="material-symbols-rounded">slow_motion_video</span>
+                            </button>
+                            <ul class="speed-options">
+                                <li data-speed="2">2x</li>
+                                <li data-speed="1.5">1.5x</li>
+                                <li data-speed="1" class="active">1x</li>
+                                <li data-speed="0.75">0.75x</li>
+                                <li data-speed="0.5">0.5x</li>
+                                <li data-speed="0.25">0.25x</li>
+                            </ul>
+                        </div>
+                        <button class="pic-in-pic">
+                            <span class="material-icons">picture_in_picture_alt</span>
+                        </button>
+                        <button class="fullscreen">
+                            <i class="fa-solid fa-expand"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <video src="/page/videos/vid_course.mp4" type="video/mp4">
+    
+            </video>
+            <script src="../script/player.js"></script>
+        </div>
+        <div class="text_container">
+            <h2>Full course for JavaScript</h2>
+            <p>This course will upgrade yours JavaScript from the beginner to the advanced level</p>
+            <div class="author_block">
+                <p class="author_name">Leonardo Casillas</p>
+                <div class="author_score">
+                    <img class="authors_ebalo" src="../img/leoC.jpg" type="image/jpg" alt="" style="border-radius:100%;"></img>
+                    <div class="stars">
+                        <span class="fa fa-star checked">
+                        <span class="fa fa-star checked">
+                        <span class="fa fa-star checked">    
+                        <span class="fa fa-star checked">    
+                        <span class="fa fa-star checked">    
+                    </div>
+                </div>
+                <p class="author_exp">10 years of experience in JavaScript</p>
+            </div>
+            <div class="upgrade_skills">
+                <p class="upgrade_expect">Expected result</p>
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <div class="skill_quality" style="background:linear-gradient(to right, green 100%,white 0%)"></div>
+                </div>
+                <div class="skill">
+                    <p>HTML</p>
+                    <div class="skill_quality" style="background:linear-gradient(to right, green 10%,white 0%);"></div>
+                </div>
+                <div class="skill">
+                    <p>CSS</p>
+                    <div class="skill_quality" style="background:linear-gradient(to right, green 10%,white 0%);"></div>
+                </div>
+            </div>
+            <p style="text-align:center;">Found this course useful?</p>
+            <div class="Evaluate_buttons">
+                <button name="LikedVideo" class="ButtonEvaluate LikeButton">Fuck yeah! <i class="fa-solid fa-thumbs-up" style="color:green"></i></button>
+                <button name="DisVideo" class="ButtonEvaluate DisButton">Not really <i class="fa-regular fa-face-frown" style="color:red"></i></button>
+            </div>
+        </div>
+        <script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+    </div>
+    <footer>
+        <div class="footer_block">
+            <div class="contacts">
+                <ul>
+                    <p class="footer_h">HotBeans</p>
+                    <p class="footer_p">Our helpers are made to help you!</p>
+                    <a href="tell:380689460239" target="_blank"><li><span class="fa fa-phone"></span> +380689460239</li></a>
+                    <a href="mailto:fignyajakas@gmail.com" target="_blank"><li><span class="fa fa-envelope"></span> fignyajakas@gmail.com</li></a>
+                </ul>
+            </div>
+            <div class="location">
+                <p class="footer_h">Our location:</p>
+                <img src="../img/Contact_map.png" type="img/png" alt="map">
+                <p><span class="fa-solid fa-location-dot"></span> Vinnitsia,Stryzhavka, Pershotravneva Street</p>
+                <!-- <div id="map"></div> -->
+            </div>
+            <div class="social_medias">
+                <p class="footer_h">Follow us in social medias</p>
+                <p class="footer_p">Discounts for courses from our's partners and interesting discussions!</p>
+                    <div class="social_list">
+                        <a href="#"><div class="fa fa-facebook soc_anime"></div></a>
+                        <a href="#"><div class="fa fa-twitter soc_anime"></div></a>
+                        <a href="#"><div class="fa fa-linkedin soc_anime"></div></a>
+                        <a href="#"><div class="fa fa-instagram soc_anime"></div></a>
+                        <a href="#"><div class="fa fa-youtube soc_anime"></div></a> 
+                    </div>
+                </div>
+            </div>
+        <div class="policy">
+            <p>Copyright &copy 2021-2022 All laws reserved</p>
+        </div>
+    </footer>  
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" defer>
+    </script>
+</body>
+</html>
